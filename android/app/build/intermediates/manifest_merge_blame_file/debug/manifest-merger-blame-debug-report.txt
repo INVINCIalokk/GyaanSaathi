@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.invincialok.GyaanSaathi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:3:3-77
+13-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+27-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.182.0] C:\Users\91836\.gradle\caches\transforms-3\bd18304b20e6fdaf3e3425e5d35bd51e\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.182.0] C:\Users\91836\.gradle\caches\transforms-3\bd18304b20e6fdaf3e3425e5d35bd51e\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\91836\.gradle\caches\transforms-3\8814f494bafd69014a1caf22650684f1\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\91836\.gradle\caches\transforms-3\8814f494bafd69014a1caf22650684f1\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:3-32:17
+35        android:name="com.invincialok.GyaanSaathi.MainApplication"
+35-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:16-47
+36        android:allowBackup="true"
+36-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:162-188
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] C:\Users\91836\.gradle\caches\transforms-3\01b98716bd18db7c75d98a3148ec3aaa\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:81-115
+40        android:label="@string/app_name"
+40-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:48-80
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:116-161
+42        android:theme="@style/AppTheme"
+42-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:14:189-220
+43        android:usesCleartextTraffic="true" >
+43-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\debug\AndroidManifest.xml:6:18-53
+44        <meta-data
+44-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:15:5-83
+45            android:name="expo.modules.updates.ENABLED"
+45-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:15:16-59
+46            android:value="false" />
+46-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:15:60-81
+47        <meta-data
+47-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:16:5-93
+48            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+48-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:16:16-68
+49            android:value="49.0.0" />
+49-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:16:69-91
+50        <meta-data
+50-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:17:5-105
+51            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+51-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:17:16-80
+52            android:value="ALWAYS" />
+52-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:17:81-103
+53        <meta-data
+53-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:18:5-99
+54            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+54-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:18:16-79
+55            android:value="0" />
+55-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:18:80-97
+56
+57        <activity
+57-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:5-30:16
+58            android:name="com.invincialok.GyaanSaathi.MainActivity"
+58-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:15-43
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:77-154
+60            android:exported="true"
+60-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:276-299
+61            android:label="@string/app_name"
+61-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:44-76
+62            android:launchMode="singleTask"
+62-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:155-186
+63            android:screenOrientation="portrait"
+63-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:300-336
+64            android:theme="@style/Theme.App.SplashScreen"
+64-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:230-275
+65            android:windowSoftInputMode="adjustResize" >
+65-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:19:187-229
+66            <intent-filter>
+66-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:20:7-23:23
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:21:9-60
+67-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:21:17-58
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:22:9-68
+69-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:22:19-66
+70            </intent-filter>
+71            <intent-filter>
+71-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:24:7-29:23
+72                <action android:name="android.intent.action.VIEW" />
+72-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:9:7-58
+72-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:9:15-56
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:26:9-67
+74-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:26:19-65
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:10:7-67
+75-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:10:17-65
+76
+77                <data android:scheme="com.invincialok.GyaanSaathi" />
+77-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:11:7-37
+77-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:11:13-35
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:31:5-106
+81            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+81-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:31:15-79
+82            android:exported="false" />
+82-->D:\Projects\react native\Educational app\GyaanSaathi\android\app\src\main\AndroidManifest.xml:31:80-104
+83
+84        <provider
+84-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+85            android:name="expo.modules.filesystem.FileSystemFileProvider"
+85-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+86            android:authorities="com.invincialok.GyaanSaathi.FileSystemFileProvider"
+86-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+87            android:exported="false"
+87-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+88            android:grantUriPermissions="true" >
+88-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+89            <meta-data
+89-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+91                android:resource="@xml/file_system_provider_paths" />
+91-->[:expo-file-system] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+92        </provider>
+93
+94        <meta-data
+94-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:89
+95            android:name="org.unimodules.core.AppLoader#react-native-headless"
+95-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-79
+96            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+96-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-86
+97        <meta-data
+97-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:45
+98            android:name="com.facebook.soloader.enabled"
+98-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-57
+99            android:value="true" />
+99-->[:expo-modules-core] D:\Projects\react native\Educational app\GyaanSaathi\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-33
+100
+101        <activity
+101-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+102            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+102-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+103            android:excludeFromRecents="true"
+103-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+106        <!--
+107            Service handling Google Sign-In user revocation. For apps that do not integrate with
+108            Google Sign-In, this service will never be started.
+109        -->
+110        <service
+110-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+111            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+111-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+112            android:exported="true"
+112-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+113            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+113-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+114            android:visibleToInstantApps="true" />
+114-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\91836\.gradle\caches\transforms-3\a545c8fa1ea6aca82610dd07f9e56990\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\91836\.gradle\caches\transforms-3\7d1b5b6f102300498731ab14d844f513\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\91836\.gradle\caches\transforms-3\7d1b5b6f102300498731ab14d844f513\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\91836\.gradle\caches\transforms-3\7d1b5b6f102300498731ab14d844f513\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\91836\.gradle\caches\transforms-3\7d1b5b6f102300498731ab14d844f513\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+120
+121        <meta-data
+121-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\91836\.gradle\caches\transforms-3\cf9aa3b8adab8ec603021207d9c50b4f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+122            android:name="com.google.android.gms.version"
+122-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\91836\.gradle\caches\transforms-3\cf9aa3b8adab8ec603021207d9c50b4f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\91836\.gradle\caches\transforms-3\cf9aa3b8adab8ec603021207d9c50b4f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+124
+125        <provider
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+126            android:name="androidx.startup.InitializationProvider"
+126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+127            android:authorities="com.invincialok.GyaanSaathi.androidx-startup"
+127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+128            android:exported="false" >
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+129            <meta-data
+129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+130                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+131                android:value="androidx.startup" />
+131-->[androidx.emoji2:emoji2:1.0.0] C:\Users\91836\.gradle\caches\transforms-3\9098b5419212ff6601713e861a89a2d7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+132            <meta-data
+132-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\91836\.gradle\caches\transforms-3\37237e168ff21f74c2fa7449816f191f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\91836\.gradle\caches\transforms-3\37237e168ff21f74c2fa7449816f191f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+134                android:value="androidx.startup" />
+134-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\91836\.gradle\caches\transforms-3\37237e168ff21f74c2fa7449816f191f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+137                android:value="androidx.startup" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+138        </provider>
+139
+140        <receiver
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+142            android:directBootAware="false"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+143            android:enabled="true"
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+144            android:exported="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+145            android:permission="android.permission.DUMP" >
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\91836\.gradle\caches\transforms-3\78a26ccc04b8399851fb3c6d61540a03\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+157            </intent-filter>
+158        </receiver>
+159    </application>
+160
+161</manifest>
